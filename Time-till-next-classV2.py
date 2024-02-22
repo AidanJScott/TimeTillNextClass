@@ -24,7 +24,7 @@ def current():
     valid_meridian = False
 
     while(valid_timeformat != True) or (valid_hour != True) or (valid_minute != True):
-        i_current_time = input("Please enter the current time in hh:mm format:\n")
+        i_current_time = input("Please enter the current time in hh:mm format: ")
 
         valid_timeformat = timeformat(i_current_time)
                  
@@ -68,7 +68,7 @@ def classfun():
     valid_meridian = False
 
     while(valid_timeformat != True) or (valid_hour != True) or (valid_minute != True):
-        i_class_time = input("Please enter the class starting time in hh:mm format:\n")
+        i_class_time = input("\nPlease enter the class starting time in hh:mm format: ")
 
         valid_timeformat = timeformat(i_class_time)
                  
